@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EverGreen Mart | Premium Organic Supermarket</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- Navbar -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#" class="logo">EverGreen Mart</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#categories" class="nav-link">Categories</a></li>
+        <li><a href="#offers" class="nav-link">Offers</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact Us</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+
+    <div class="floating-circle circle-1"></div>
+    <div class="floating-circle circle-2"></div>
+    <div class="floating-circle circle-3"></div>
+
+    <div class="container hero-content">
+      <div class="hero-text reveal">
+        <span class="hero-badge">
+          <i class="fa-solid fa-leaf"></i>
+          Organic Living Since 2012
+        </span>
+
+        <h1>
+          Freshness Crafted For
+          <span>Healthy Living</span>
+        </h1>
+
+        <p>
+          Discover a premium organic supermarket experience with ethically sourced
+          produce, artisan bakery selections, healthy essentials and farm-fresh goodness.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-primary">
+            Explore Products
+          </a>
+
+          <a href="#about" class="btn btn-secondary">
+            Our Story
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <h3 class="counter" data-target="500">0</h3>
+            <p>+ Happy Customers</p>
+          </div>
+
+          <div class="stat-card">
+            <h3 class="counter" data-target="100">0</h3>
+            <p>% Organic</p>
+          </div>
+
+          <div class="stat-card">
+            <h3 class="counter" data-target="200">0</h3>
+            <p>+ Fresh Products</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="floating-product card-1">
+          <img
+            src="Hero.avif"
+            alt="Organic"
+          />
+          <div>
+            <h4>Farm Fresh Greens</h4>
+            <span>Organic Collection</span>
+          </div>
+        </div>
+
+        <div class="floating-product card-2">
+          <img
+            src="Juice.avif"
+            alt="Juices"
+          />
+          <div>
+            <h4>Cold Pressed Juice</h4>
+            <span>Fresh Daily</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-images reveal">
+        <img
+          class="about-main"
+          src="About.avif"
+          alt="Organic Market"
+        />
+
+        <div class="about-card">
+          <i class="fa-solid fa-seedling"></i>
+          <div>
+            <h4>Ethically Sourced</h4>
+            <p>From trusted farms & local growers</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <span class="section-tag">About EverGreen Mart</span>
+
+        <h2>
+          A premium organic supermarket built around wellness, sustainability
+          and community trust.
+        </h2>
+
+        <p>
+          At EverGreen Mart, every shelf tells a story of freshness,
+          ethical farming and mindful living. We partner with passionate growers,
+          artisan bakers and sustainable producers to bring nature’s finest to your table.
+        </p>
+
+        <div class="about-features">
+          <div class="feature-item">
+            <i class="fa-solid fa-leaf"></i>
+            <span>Certified Organic Produce</span>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa-solid fa-heart"></i>
+            <span>Healthy Lifestyle Focused</span>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa-solid fa-earth-americas"></i>
+            <span>Eco Conscious Packaging</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products section" id="products">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-tag">Featured Products</span>
+        <h2>Freshly Curated Organic Essentials</h2>
+      </div>
+
+      <div class="product-grid">
+
+        <div class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="Veg.avif"
+              alt="Vegetables"
+            />
+            <span class="organic-badge">Organic</span>
+          </div>
+
+          <div class="product-content">
+            <h3>Garden Vegetables</h3>
+            <p>$18.00</p>
+          </div>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="Fruits.avif"
+              alt="Fruits"
+            />
+            <span class="organic-badge">Fresh</span>
+          </div>
+
+          <div class="product-content">
+            <h3>Seasonal Fruits</h3>
+            <p>$22.00</p>
+          </div>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="Bake.avif"
+              alt="Bakery"
+            />
+            <span class="organic-badge">Artisan</span>
+          </div>
+
+          <div class="product-content">
+            <h3>Fresh Bakery</h3>
+            <p>$14.00</p>
+          </div>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="Juice.avif"
+              alt="Healthy Snacks"
+            />
+            <span class="organic-badge">Healthy</span>
+          </div>
+
+          <div class="product-content">
+            <h3>Healthy Snacks</h3>
+            <p>$12.00</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories section" id="categories">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-tag">Organic Categories</span>
+        <h2>Explore Fresh Everyday Essentials</h2>
+      </div>
+
+      <div class="category-grid">
+
+        <div class="category-card reveal">
+          <i class="fa-solid fa-apple-whole"></i>
+          <h3>Fruits</h3>
+        </div>
+
+        <div class="category-card reveal">
+          <i class="fa-solid fa-carrot"></i>
+          <h3>Vegetables</h3>
+        </div>
+
+        <div class="category-card reveal">
+          <i class="fa-solid fa-cheese"></i>
+          <h3>Dairy</h3>
+        </div>
+
+        <div class="category-card reveal">
+          <i class="fa-solid fa-bread-slice"></i>
+          <h3>Bakery</h3>
+        </div>
+
+        <div class="category-card reveal">
+          <i class="fa-solid fa-seedling"></i>
+          <h3>Organic Foods</h3>
+        </div>
+
+        <div class="category-card reveal">
+          <i class="fa-solid fa-glass-water"></i>
+          <h3>Fresh Juices</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Offers -->
+  <section class="offers section" id="offers">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-tag">Weekly Offers</span>
+        <h2>Fresh Seasonal Specials</h2>
+      </div>
+
+      <div class="offer-grid">
+
+        <div class="offer-card reveal">
+          <span class="discount-tag">15% OFF</span>
+          <img
+            src="Cold.avif"
+            alt="Juice"
+          />
+          <div class="offer-content">
+            <h3>Cold Pressed Juices</h3>
+            <p>Refreshing wellness blends made fresh daily.</p>
+            <a href="#products" class="btn btn-primary small-btn">
+              Shop Now
+            </a>
+          </div>
+        </div>
+
+        <div class="offer-card reveal">
+          <span class="discount-tag">20% OFF</span>
+          <img
+            src="Farm.avif"
+            alt="Vegetables"
+          />
+          <div class="offer-content">
+            <h3>Farm Fresh Greens</h3>
+            <p>Handpicked vegetables from local organic farms.</p>
+            <a href="#products" class="btn btn-primary small-btn">
+              Discover
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why section">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-tag">Why Choose Us</span>
+        <h2>Trusted Organic Living Experience</h2>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-card reveal">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h3>Fast Delivery</h3>
+          <p>Quick premium delivery with freshness guaranteed.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <i class="fa-solid fa-leaf"></i>
+          <h3>Farm Fresh</h3>
+          <p>Locally sourced produce picked at peak freshness.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <i class="fa-solid fa-award"></i>
+          <h3>Trusted Quality</h3>
+          <p>Every product is carefully selected and certified.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <i class="fa-solid fa-recycle"></i>
+          <h3>Eco Friendly</h3>
+          <p>Sustainable packaging and mindful sourcing.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery section" id="gallery">
+    <div class="section-heading reveal">
+      <span class="section-tag">Gallery</span>
+      <h2>Freshness In Motion</h2>
+    </div>
+
+    <div class="gallery-track">
+
+      <div class="gallery-item">
+        <img src="All.avif" alt="" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="Hero.avif" alt="" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="Bake.avif" alt="" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="Veg.avif" alt="" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="Fruits.avif" alt="" />
+      </div>
+
+      <div class="gallery-item">
+        <img src="All.avif" alt="" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="section-tag">Testimonials</span>
+        <h2>What Our Community Says</h2>
+      </div>
+
+      <div class="testimonial-grid">
+
+        <div class="testimonial-card reveal">
+          <img
+            src="user1.jfif"
+            alt=""
+          />
+
+          <h3>Divya</h3>
+
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <p>
+            “EverGreen Mart completely changed how I shop for healthy food.
+            The quality feels truly premium.”
+          </p>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <img
+            src="user2.jfif"
+            alt=""
+          />
+
+          <h3>Anushma</h3>
+
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <p>
+            “Beautiful store experience, fresh produce, and outstanding service.
+            It feels luxurious yet warm.”
+          </p>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <img
+            src="user3.jfif"
+            alt=""
+          />
+
+          <h3>Surya Mohan</h3>
+
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <p>
+            “Their organic bakery and juices are my weekly essentials.
+            Everything feels thoughtfully curated.”
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer section" id="contact">
+    <div class="container footer-grid">
+
+      <div class="footer-brand reveal">
+        <h2>EverGreen Mart</h2>
+        <p>
+          Bringing freshness, sustainability, and healthy living together in one premium destination.
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links reveal">
+        <h3>Quick Links</h3>
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+
+      <div class="footer-contact reveal">
+        <h3>Contact Info</h3>
+
+        <p><i class="fa-solid fa-location-dot"></i> Green Avenue, California</p>
+        <p><i class="fa-solid fa-envelope"></i> hello@evergreenmart.com</p>
+        <p><i class="fa-solid fa-phone"></i> +1 800 123 4567</p>
+        <p><i class="fa-solid fa-clock"></i> Mon - Sun : 8AM - 10PM</p>
+      </div>
+
+      <div class="footer-form reveal">
+        <h3>Newsletter</h3>
+<!-- action="https://formspree.io/f/xdabzpnn" method="POST" -->
+        <form >
+          <input type="email" placeholder="Your Email Address" required />
+          <button type="submit" class="btn btn-primary">
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 EverGreen Mart. Crafted with freshness & sustainability.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
